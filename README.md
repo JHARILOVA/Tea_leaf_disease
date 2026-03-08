@@ -25,7 +25,7 @@ By leveraging **Transfer Learning** with **ResNet50V2**, the model achieves a 94
 The dataset contains 871 images categorized into 8 classes:
 * **Diseases:** Anthracnose, Algal Leaf, Bird's Eye Spot, Brown Blight, Gray Blight, Red Leaf Spot, White Spot.
 * **Healthy:** Healthy tea leaves.
-* 
+  
 <img width="989" height="490" alt="crop1" src="https://github.com/user-attachments/assets/a9025150-b4c0-4060-b7f5-235dc22db20b" />
 
 ##  Results & Performance
