@@ -73,4 +73,32 @@ The model achieved state-of-the-art results for this specific dataset:
     [!TIP]
     Key Insight: The model shows exceptional recall for the "Healthy" class, ensuring that farmers do not mistakenly treat healthy plants, thus saving costs and reducing chemical use.
 
- 
+ # 🍵 Tea Leaf Disease Classification using ResNet50V2
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://www.tensorflow.org/)
+[![Model](https://img.shields.io/badge/Model-ResNet50V2-red.svg)](#)
+[![F1-Score](https://img.shields.io/badge/F1--Score-94%25-green.svg)](#)
+
+##  Project Overview
+This project uses Deep Learning to classify tea leaf diseases. By leveraging **Transfer Learning** with **ResNet50V2**, the model achieves a 94% F1-Score in identifying 8 different tea leaf conditions.
+
+
+## Dataset Analysis
+The dataset contains 871 images categorized into 8 classes:
+* **Diseases:** Anthracnose, Algal Leaf, Bird's Eye Spot, Brown Blight, Gray Blight, Red Leaf Spot, White Spot.
+* **Healthy:** Healthy tea leaves.
+
+## 🚀 Results & Performance
+The model performance is visualized below:
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### Training Curves
+![Training Curves](outputs/training_performance.png)
+
+##  Usage
+Ensure your images are in the `dataset/` folder and run the notebook:
+```bash
+pip install tensorflow numpy matplotlib seaborn scikit-learn
